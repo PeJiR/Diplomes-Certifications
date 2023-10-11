@@ -2,7 +2,7 @@
 <table border=1 cellpadding=10><tr><td>  
   
 
-## See listed below the certificates that I have earned so far:
+## List of Cerfificates:
 - [Harvard Professional Certificate in Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
 
 
