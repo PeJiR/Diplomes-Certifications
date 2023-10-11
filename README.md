@@ -9,18 +9,18 @@ This repository contains a collection of all the professional certificates that 
 
 I learned a variety of technical skills, including:
 
-    Programming languages: Python, R, SQL
-    Software tools: Jupyter Notebook, PyCharm, RStudio, Tableau, Hadoop, Spark
-    Machine learning algorithms: linear regression, logistic regression, decision trees, random forests, support vector machines
-    Deep learning algorithms: neural networks, convolutional neural networks, recurrent neural networks
-    Data wrangling and cleaning techniques
-    Data visualization techniques
+- Programming languages: Python, R, SQL
+- Software tools: Jupyter Notebook, PyCharm, RStudio, Tableau, Hadoop, Spark
+- Machine learning algorithms: linear regression, logistic regression, decision trees, random forests, support vector machines
+- Deep learning algorithms: neural networks, convolutional neural networks, recurrent neural networks
+- Data wrangling and cleaning techniques
+- Data visualization techniques
 
 I also learned soft skills that are essential for data scientists, such as:
 
-    Communication skills: I learned how to communicate my findings to both technical and non-technical audiences.
-    Teamwork skills: I learned how to collaborate with other data scientists and engineers to solve complex problems.
-    Problem-solving skills: I learned how to think critically and creatively to solve data science challenges.
+- Communication skills: I learned how to communicate my findings to both technical and non-technical audiences.
+- Teamwork skills: I learned how to collaborate with other data scientists and engineers to solve complex problems.
+- Problem-solving skills: I learned how to think critically and creatively to solve data science challenges.
 
 ## Conclusion
 
