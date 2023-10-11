@@ -1,6 +1,7 @@
 # Certificates
----
+ 
 <table border=1 cellpadding=10><tr><td>  
+---
 
 ## Intro
 
@@ -33,7 +34,10 @@ I am committed to my professional development, and I am always looking for new w
 - [Harvard Professional Certificate in Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
 
 
+---
+### P.S.
 
+Please drop me an note with any feedback you have.
  
 
 
