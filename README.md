@@ -1,12 +1,14 @@
 # Certificates
  
 <table border=1 cellpadding=10><tr><td>  
----
 
 ## Intro
 
 This repository contains a collection of all the professional certificates that I have earned so far. I am passionate about continuous learning and development. I believe that professional certificates are a great way to stay up-to-date on the latest trends and technologies in my field, and to demonstrate my skills and knowledge to potential employers and clients.  
+
 </td></tr></table>
+
+---
 
 ## What skills and knowledge did I gain from earning these data science certificates?
 
