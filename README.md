@@ -35,7 +35,7 @@ I am committed to my professional development, and I am always looking for new w
 
 - [Harvard Professional Certificate in Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
 
-
+- [IBM Professional Certificate in Data Science](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
 ---
 ### P.S.
 
