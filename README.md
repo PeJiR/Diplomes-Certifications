@@ -32,6 +32,7 @@ I also learned soft skills that are essential for data scientists, such as:
 I am committed to my professional development, and I am always looking for new ways to learn and grow. I hope that this repository will inspire others to do the same.
 
 ## List of Cerfificates:
+- [Google Analytics Certification](https://github.com/PeJiR/Diplomes-Certifications/blob/main/IT/Google%20Analytics%20Certification%20_%20Google.pdf)
 
 - [Harvard Professional Certificate in Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
 
