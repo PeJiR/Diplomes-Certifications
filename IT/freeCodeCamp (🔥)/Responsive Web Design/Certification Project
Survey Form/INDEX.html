@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width,initial -scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Survey Form</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Join the Developer Community</h1>
+        <p id="description"> Unlock your coding journey by signing up below:</p>
+    </header>
+    <form id="survey-form">
+        <label for="name" id="name-label" >Enter your name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email" id="email-label">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="number" id="number-label" >Coding Experience (years):</label>
+        <input type="number" id="number" name="number" placeholder="Enter your coding experience" 
+        min="0" max="50" required>
+
+        <label  for="dropdown">Experience-level: </label>
+        <select id="dropdown">
+            <option value="beginner"> beginner</option> 
+            <option value="intermediate"> Intermediate</option> 
+            <option value="advanced"> Advanced</option> 
+        </select>
+        <fieldset>
+            <legend>Choose Your Favorite Operating System</legend>
+            <label>
+                <input name="OS" type="radio" value="windows">Windows
+            </label>
+            <label>
+                <input name="OS"type="radio" value="linux">Linux
+            </label>
+            <label>
+                <input name="OS" type="radio" value="mac">Mac
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose Your Favorite Programming Languages</legend>
+            <label>
+                <input type="checkbox" value="javascript">javascript
+            </label>
+            <label>
+                <input type="checkbox" value="javascript">javascript
+            </label>
+            <label>
+                <input type="checkbox" value="javascript">javascript
+            </label>
+        </fieldset>
+
+        <label for="comments"> Tell us about yourself:</label>
+        <textarea id="comments" placeholder= "Share your coding journey and interests"></textarea>
+        <input type="submit" id="submit" value="submit"
+    </form>
+
+</body>
