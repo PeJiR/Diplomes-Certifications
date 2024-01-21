@@ -1,24 +1,27 @@
 /* Dark-themed styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #333;
+    padding: 30;
+    background-image: url("https://assets.codepen.io/t-1/tower-of-climbing-cubes.png?width=440&quality=90&format=auto");
     color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
 header {
-    background-color: #222;
+    background-color: #2980b9;
     text-align: center;
     padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-bottom: 4px solid #fdb347;
 }
 
 form {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #444;
+    background-color: #222222;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -29,24 +32,27 @@ label {
     color: #fff;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
-    background-color: #555;
+    background-color: #333333;
     color: #fff;
-    border: 1px solid #777;
+    border: 1px solid #444444;
 }
 
 /* Added styles for checkboxes and radio buttons */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
     margin-bottom: 8px;
 }
 
 fieldset {
     margin-bottom: 16px;
-    border: 1px solid #777;
+    border: 1px solid #444444;
     padding: 10px;
     border-radius: 8px;
 }
@@ -58,9 +64,9 @@ legend {
 
 textarea {
     height: 100px;
-    background-color: #555;
+    background-color: #333333;
     color: #fff;
-    border: 1px solid #777;
+    border: 1px solid #444444;
 }
 
 .inline {
@@ -68,15 +74,17 @@ textarea {
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
+
 input[type="submit"] {
-    background-color: #4CAF50;
+    display: block;
+    margin: 1em auto;
+    width: auto;
+    height: auto;
+    background-color: #9c27b0;
     color: white;
     cursor: pointer;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
+    border: 10px;
+    padding: 5px 40px;
+    border-radius: 20px;
+    font-size: 20px;
 }
