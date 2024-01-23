@@ -1,8 +1,6 @@
 
-<h1 align="center">Uber Data Analytics | Modern Data Engineering GCP Project</h1>
-<a href="https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git" target="_blank"> <img border=0 src="https://img.shields.io/badge/python-2.7,%203.6+-blue.svg?style=flat" alt="Python version"></a>
-<a href="https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git" target="_blank"><img src="https://img.shields.io/pypi/status/ezibpy.svg?maxAge=60" alt="status"/></a>
-<a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs.git"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPeJiR%2FCalculation-of-employee-turnover-costs.git&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Visit count"/></a>
+<h1 align="center">Survey Form </h1>
+
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
 <!---
@@ -21,61 +19,21 @@
 --->
 ## Project description: 
 
-The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+This project will involve creating a survey form using HTML and CSS to gather user data. This form will provide valuable insights into user preferences and experiences, allowing us to enhance user interactions.
 
-<!---
-### 🏠 [Homepage](pejir)
 
-### ✨ [Demo](pejir)
---->
+##  See project online 
 
-## Install
-Simply clone the repository to your local machine
+[Link to project](https://codepen.io/Robeloper/full/OJqgbGP) ✨
 
-```sh
-https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git
-```
-## Architecture 
-<img src="architecture.jpg">
-
-1. Project Execution Start (Data Modelling)
-2. Writing Transformation Code (Python)
-3. Google Cloud Storage & Mage Installation
-4. BigQuery Data Analysis
-5. Building Dashboard 
 
 ## Technology Used
-Programming Language - Python
-
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
-
-Modern Data Pipeine Tool - https://www.mage.ai/
-
-Contibute to this open source project - https://github.com/mage-ai/mage-ai
+HTML and CSS 
 
 
-## Dataset Used
-TLC Trip Record Data
-Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
 
-Here is the dataset used in the video - https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project/blob/main/uber_data.csv
 
-More info about dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
-
-## Data Model
-<img src="Uber data model.png">
-
-## Dashboard
-Simply navigate to the project directory in Lookerstudio.googleand by following the Link:
-https://lookerstudio.google.com/reporting/125d4e23-c28b-43a4-98c5-bfd924aaa952
-
-<img src="lookerstudio_uber.png">
+<img src="survey.png">
 
 
 
