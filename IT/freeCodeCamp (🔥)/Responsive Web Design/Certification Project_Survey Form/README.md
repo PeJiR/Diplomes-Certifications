@@ -32,8 +32,10 @@ HTML and CSS
 
 
 
+<a href="https://codepen.io/Robeloper/full/OJqgbGP">
+  <img src="survey.png" width="auto">
+</a>
 
-<img src="survey.png">
 
 
 
