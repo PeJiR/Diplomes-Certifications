@@ -24,44 +24,14 @@
 This project will involve creating a survey form using HTML and CSS to gather user data. This form will provide valuable insights into user preferences and experiences, allowing us to enhance user interactions.
 
 
-✨ [See project online](https://codepen.io/Robeloper/pen/OJqgbGP)
---->
+##  [See project online](https://codepen.io/Robeloper/pen/OJqgbGP)✨
 
-## Install
-Simply clone the repository to your local machine
-
-```sh
-https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git
-```
-## Architecture 
-<img src="architecture.jpg">
-
-1. Project Execution Start (Data Modelling)
-2. Writing Transformation Code (Python)
-3. Google Cloud Storage & Mage Installation
-4. BigQuery Data Analysis
-5. Building Dashboard 
 
 ## Technology Used
 HTML and CSS 
 
 
-## Dataset Used
-TLC Trip Record Data
-Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
 
-Here is the dataset used in the video - https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project/blob/main/uber_data.csv
-
-More info about dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
-
-## Data Model
-<img src="Uber data model.png">
-
-## Dashboard
-Simply navigate to the project directory in Lookerstudio.googleand by following the Link:
-https://lookerstudio.google.com/reporting/125d4e23-c28b-43a4-98c5-bfd924aaa952
 
 <img src="lookerstudio_uber.png">
 
