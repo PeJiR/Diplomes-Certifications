@@ -24,7 +24,9 @@
 This project will involve creating a survey form using HTML and CSS to gather user data. This form will provide valuable insights into user preferences and experiences, allowing us to enhance user interactions.
 
 
-##  [See project online](https://codepen.io/Robeloper/pen/OJqgbGP)✨
+##  See project online 
+
+[Link to project](https://codepen.io/Robeloper/full/OJqgbGP) ✨
 
 
 ## Technology Used
