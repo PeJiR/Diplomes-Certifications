@@ -1,5 +1,5 @@
 
-<h1 align="center">Uber Data Analytics | Modern Data Engineering GCP Project</h1>
+<h1 align="center">Survey Form </h1>
 <a href="https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git" target="_blank"> <img border=0 src="https://img.shields.io/badge/python-2.7,%203.6+-blue.svg?style=flat" alt="Python version"></a>
 <a href="https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project.git" target="_blank"><img src="https://img.shields.io/pypi/status/ezibpy.svg?maxAge=60" alt="status"/></a>
 <a target="new" href="https://github.com/PeJiR/Calculation-of-employee-turnover-costs.git"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPeJiR%2FCalculation-of-employee-turnover-costs.git&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Visit count"/></a>
@@ -21,12 +21,10 @@
 --->
 ## Project description: 
 
-The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+This project will involve creating a survey form using HTML and CSS to gather user data. This form will provide valuable insights into user preferences and experiences, allowing us to enhance user interactions.
 
-<!---
-### 🏠 [Homepage](pejir)
 
-### ✨ [Demo](pejir)
+✨ [See project online](https://codepen.io/Robeloper/pen/OJqgbGP)
 --->
 
 ## Install
@@ -45,17 +43,7 @@ https://github.com/PeJiR/Uber-Data-Analytics-End-To-End-Data-Engineering-Project
 5. Building Dashboard 
 
 ## Technology Used
-Programming Language - Python
-
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
-
-Modern Data Pipeine Tool - https://www.mage.ai/
-
-Contibute to this open source project - https://github.com/mage-ai/mage-ai
+HTML and CSS 
 
 
 ## Dataset Used
