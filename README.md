@@ -32,7 +32,7 @@ I also learned soft skills that are essential for data scientists, such as:
 I am committed to my professional development, and I am always looking for new ways to learn and grow. I hope that this repository will inspire others to do the same.
 
 ## List of Cerfificates:
-- [Diploma in Using Python for Data Science](https://github.com/PeJiR/Diplomes-Certifications/blob/main/IT/Alyson_Diploma%20in%20Using%20Python%20for%20Data%20Science/Diploma%20in%20Using%20Python%20for%20Data%20Science.pdf)
+- [Alison_Diploma in Using Python for Data Science](https://github.com/PeJiR/Diplomes-Certifications/blob/main/IT/Alyson_Diploma%20in%20Using%20Python%20for%20Data%20Science/Diploma%20in%20Using%20Python%20for%20Data%20Science.pdf)
 - [Google Analytics Certification](https://github.com/PeJiR/Diplomes-Certifications/blob/main/IT/Google%20Analytics%20Certification%20_%20Google.pdf)
 - [Harvard Professional Certificate in Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
 - [IBM Professional Certificate in Data Science](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
