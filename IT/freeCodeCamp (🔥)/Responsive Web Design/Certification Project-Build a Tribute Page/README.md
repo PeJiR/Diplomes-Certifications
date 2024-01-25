@@ -1,5 +1,5 @@
 
-<h1 align="center">Survey Form </h1>
+<h1 align="center">Draon Ball tribute page 🐉 💥 🍜  </h1>
 
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
@@ -19,8 +19,7 @@
 --->
 ## Project description: 
 
-This project will involve creating a survey form using HTML and CSS to gather user data. This form will provide valuable insights into user preferences and experiences, allowing us to enhance user interactions.
-
+For this project, i have built a tribute page for Son Goku from Dragon ball anime.
 
 ##  See project online 
 
