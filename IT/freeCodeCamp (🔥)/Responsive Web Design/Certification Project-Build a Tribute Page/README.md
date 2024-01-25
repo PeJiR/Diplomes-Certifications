@@ -24,7 +24,7 @@ This project will involve creating a survey form using HTML and CSS to gather us
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/OJqgbGP) ✨
+[Link to project](https://codepen.io/Robeloper/full/JjzrrXX) ✨
 
 
 ## Technology Used
