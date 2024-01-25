@@ -34,7 +34,7 @@ This project will involve creating a survey form using HTML and CSS to gather us
 
 
 
-<a href="https://codepen.io/Robeloper/full/OJqgbGP">
+<a href="https://codepen.io/Robeloper/full/JjzrrXX">
   <img src="header.png" width="auto">
 </a>
 
