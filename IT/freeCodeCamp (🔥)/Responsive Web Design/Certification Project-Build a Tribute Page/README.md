@@ -1,5 +1,5 @@
 
-<h1 align="center">Survey Form </h1>
+<h1 align="center">Dragon Ball tribute page 🐉 💥 🍜  </h1>
 
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
@@ -19,12 +19,11 @@
 --->
 ## Project description: 
 
-This project will involve creating a survey form using HTML and CSS to gather user data. This form will provide valuable insights into user preferences and experiences, allowing us to enhance user interactions.
-
+For this project, I have built a tribute page for Son Goku from Dragon ball anime.
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/OJqgbGP) ✨
+[Link to project](https://codepen.io/Robeloper/full/JjzrrXX) ✨
 
 
 ## Technology Used
@@ -34,8 +33,8 @@ This project will involve creating a survey form using HTML and CSS to gather us
 
 
 
-<a href="https://codepen.io/Robeloper/full/OJqgbGP">
-  <img src="survey.png" width="auto">
+<a href="https://codepen.io/Robeloper/full/JjzrrXX">
+  <img src="header.png" width="auto">
 </a>
 
 
@@ -80,4 +79,4 @@ P.S.
 
 Please drop me an note with any feedback you have.
 
-**Roberto Perez**
+
