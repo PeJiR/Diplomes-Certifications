@@ -19,7 +19,7 @@
 --->
 ## Project description: 
 
-For this project, i have built a tribute page for Son Goku from Dragon ball anime.
+For this project, I have built a tribute page for Son Goku from Dragon ball anime.
 
 ##  See project online 
 
