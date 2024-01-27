@@ -1,5 +1,5 @@
 
-<h1 align="center">Dragon Ball tribute page 🐉 💥 🍜  </h1>
+<h1 align="center">Technical Documentation Page 🤓 </h1>
 
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
@@ -19,11 +19,11 @@
 --->
 ## Project description: 
 
-For this project, I have built a tribute page for Son Goku from Dragon ball anime.
+For this project, I have build a technical documentation page to serve as instruction or reference for Introduction to HTML language.
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/JjzrrXX) ✨
+[Link to project](https://codepen.io/Robeloper/full/dyrZBzm)✨
 
 
 ## Technology Used
@@ -34,7 +34,7 @@ For this project, I have built a tribute page for Son Goku from Dragon ball anim
 
 
 <a href="https://codepen.io/Robeloper/full/JjzrrXX">
-  <img src="header.png" width="auto">
+  <img src="photo.png" width="auto">
 </a>
 
 
