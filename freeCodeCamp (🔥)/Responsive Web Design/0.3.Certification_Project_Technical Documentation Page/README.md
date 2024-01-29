@@ -10,7 +10,7 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://opensource.org/license/mit/" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" /> 
   </a>
   <a href="https://twitter.com/PerezPejir84" target="_blank">
     <img alt="Twitter: pejir" src="https://img.shields.io/twitter/follow/pejir.svg?style=social" />
