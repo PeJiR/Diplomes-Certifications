@@ -19,7 +19,7 @@
 --->
 ## Project description: 
 
-For this project, I have build a technical documentation page to serve as instruction or reference for Introduction to HTML language.
+For this project, I have built a technical documentation page to serve as instruction or reference for Introduction to HTML language.
 
 ##  See project online 
 
