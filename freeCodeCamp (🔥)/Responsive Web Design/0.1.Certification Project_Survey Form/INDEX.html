@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title> Survey Form</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Join the Developer Community</h1>
+        <p id="description"> Unlock your coding journey by signing up below:</p>
+    </header>
+    <form id="survey-form">
+        <label for="name" id="name-label" >Enter your name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email" id="email-label">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="number" id="number-label" >Coding Experience (years):</label>
+        <input type="number" id="number" name="number" placeholder="Enter your coding experience"
+        min="0" max="50" required>
+
+        <label  for="dropdown">Experience-level: </label>
+        <select id="dropdown" name="experience-level">
+            <option value="beginner"> beginner</option> 
+            <option value="intermediate"> Intermediate</option> 
+            <option value="advanced"> Advanced</option> 
+            <option value="jedi"> Jedi Master</option> 
+        </select>
+        <fieldset>
+            <legend>Choose Your Favorite Operating System</legend>
+            <label>
+                <input name="OS" type="radio" value="windows" class="inline" checked>Windows
+            </label>
+            <label>
+                <input name="OS"type="radio" value="linux" class="inline">Linux
+            </label>
+            <label>
+                <input name="OS" type="radio" value="mac" class="inline">Mac
+            </label>
+            <label>
+                <input name="OS" type="radio" value="other" class="inline">Other
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose Your Favorite Programming Languages</legend>
+            <label>
+            <input type="checkbox" value="javascript" class="inline">JavaScript
+        </label>
+            <label>
+            <input type="checkbox" value="python" class="inline">Python
+        </label>
+            <label>
+            <input type="checkbox" value="java" class="inline">Java
+        </label>
+        <label>
+            <input type="checkbox" value="I-love-programming" class="inline">I ❤️ CODE
+        </label>
+
+        </fieldset>
+
+        <label for="comments"> Tell us about yourself:</label>
+        <textarea id="comments" placeholder= "Share your coding journey and interests"></textarea>
+        <label for="terms-and-conditions">
+            <input class="inline" id="terms" type="checkbox" name "terms" value="terms" requried> I accept the required <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input type="submit" id="submit" value="submit">
+
+    </form>
+
+</body>
