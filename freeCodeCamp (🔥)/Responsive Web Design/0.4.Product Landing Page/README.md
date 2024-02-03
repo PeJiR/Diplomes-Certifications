@@ -1,5 +1,5 @@
 
-<h1 align="center">Technical Documentation Page 🤓 </h1>
+<h1 align="center">Product Landing Page 🤓 </h1>
 
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
