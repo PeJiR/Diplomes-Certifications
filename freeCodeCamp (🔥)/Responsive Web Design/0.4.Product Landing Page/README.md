@@ -34,7 +34,7 @@ For this project, I have built a technical documentation page to serve as instru
 
 
 <a href="https://codepen.io/Robeloper/full/dyrZBzm">
-  <img src="photo.png"width="auto">
+  <img src="https://github.com/PeJiR/Diplomes-Certifications/blob/main/freeCodeCamp%20(%F0%9F%94%A5)/Responsive%20Web%20Design/0.4.Product%20Landing%20Page/Screenshot%20from%202024-02-03%2018-41-32.png"width="auto">
 </a>
 
 
