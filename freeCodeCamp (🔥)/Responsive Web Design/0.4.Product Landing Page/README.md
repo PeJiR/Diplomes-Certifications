@@ -23,7 +23,7 @@ For this project, I have built a technical documentation page to serve as instru
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/dyrZBzm)✨
+[Link to project](https://codepen.io/Robeloper/full/qBvYrxV)✨
 
 
 ## Technology Used
