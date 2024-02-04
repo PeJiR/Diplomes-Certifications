@@ -35,7 +35,7 @@ In this project will create my own personal portfolio page.
 
 
 <a href="https://codepen.io/Robeloper/full/OJqgbGP">
-  <img src="survey.png" width="auto">
+  <img src="photo.png" width="auto">
 </a>
 
 
