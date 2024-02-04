@@ -15,6 +15,9 @@ This Repository will hold all of the code and queries from the Portfolio Project
 
 Please feel free to take these and run with them. Make them your own and find you own insights
 
+<a href="https://public.tableau.com/app/profile/roberto.perez2846">
+  <img src="Tableau.png">
+</a>
 
 ## Author
 
