@@ -34,7 +34,7 @@ In this project I have created my own personal portfolio page.
 
 
 
-<a href="https://codepen.io/Robeloper/full/OJqgbGP">
+<a href="[https://codepen.io/Robeloper/full/OJqgbGP](https://codepen.io/Robeloper/full/ZEPRzZx)">
   <img src="photo.png" width="auto">
 </a>
 
