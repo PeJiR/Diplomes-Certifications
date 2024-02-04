@@ -14,6 +14,9 @@
 
 >This project is a simple tic-tac-toe game implemented in Python. The game can be played by two players, who take turns placing their marks (X or O) on a 3x3 grid. The first player to get three of their marks in a row, column, or diagonal wins the game.
 
+< a href="https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming/tree/main/CS50-s-Introduction-to-Programming-with-Python/Final%20Project"
+    <img src="" widht="auto">
+</a>
 **Features** :
 
 Two-player support
