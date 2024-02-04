@@ -16,7 +16,7 @@ This Repository will hold all of the code and queries from the Portfolio Project
 Please feel free to take these and run with them. Make them your own and find you own insights
 
 <a href="https://public.tableau.com/app/profile/roberto.perez2846">
-  <img src="(https://github.com/PeJiR/Diplomes-Certifications/blob/main/freeCodeCamp%20(%F0%9F%94%A5)/Responsive%20Web%20Design/0.4.Product%20Landing%20Page/Screenshot%20from%202024-02-03%2018-41-32.png"width="auto](https://raw.githubusercontent.com/PeJiR/Diplomes-Certifications/main/Tableau-Visualitations/Tableau.png)">
+  <img src="Tableau.png">
 </a>
 
 ## Author
