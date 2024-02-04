@@ -19,7 +19,7 @@
 --->
 ## Project description: 
 
-In this project will create my own personal portfolio page.
+In this project I have created my own personal portfolio page.
 
 
 ##  See project online 
