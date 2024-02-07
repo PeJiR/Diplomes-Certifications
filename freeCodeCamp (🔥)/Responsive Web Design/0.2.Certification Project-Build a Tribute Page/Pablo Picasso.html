@@ -80,7 +80,7 @@
                                             , whose influence would be seen in his future work.
                                         </p>
                                         <br>
-                                        
+
                                     </blockquote>
                                 </section>
                             </div>
@@ -99,10 +99,13 @@
                 <div class="col-xs-12 col-md-6">
                     <div class="story-section story-section__biography">
                         <p>&laquo;Picasso's training under his father began before 1890
-                            His progress can be traced in the collection of early works now held by the Museu Picasso in Barcelona,
-                             which provides one of the most comprehensive records extant of any major artist's beginnings...&raquo;</p>
-                        <button type="button" class="story-section__btn" 
-                        <button><a href="https://en.wikipedia.org/wiki/Pablo_Picasso#Early_life" target="_blank"> Before 1900</button></a>
+                            His progress can be traced in the collection of early works now held by the Museu Picasso in
+                            Barcelona,
+                            which provides one of the most comprehensive records extant of any major artist's
+                            beginnings...&raquo;</p>
+                        <button type="button" class="story-section__btn" <button><a
+                                href="https://en.wikipedia.org/wiki/Pablo_Picasso#Early_life" target="_blank"> Before
+                                1900</button></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6">
@@ -893,44 +896,44 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
     <script src="js/main.js "></script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
 </body>
 
 </html>
