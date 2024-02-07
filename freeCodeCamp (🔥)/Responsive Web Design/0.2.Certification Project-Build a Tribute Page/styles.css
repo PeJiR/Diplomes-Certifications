@@ -9958,7 +9958,7 @@ button {
 body {
   font-family: Roboto-r, Arial, sans-serif;
   font-size: 10px;
-  background: url("../img/robert-downey-jr.jpg") 50% center no-repeat fixed, url("../img/pw_maze_black_@2X.png");
+  background: url("https://miro.medium.com/v2/resize:fit:1100/format:webp/1*759mfuqRxFwqcpA1QVsnUA.jpeg") 50% center no-repeat fixed, url("../img/pw_maze_black_@2X.png");
 }
 
 @media screen and (min-width: 321px) and (max-width: 479px) and (orientation: portrait) {
