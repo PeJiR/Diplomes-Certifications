@@ -158,7 +158,9 @@ html [type="button"] {
 
 hr,
 img {
-  border: 0px;
+border: 0px;
+width: 202px;
+height: 200px;
 }
 
 legend {
@@ -248,7 +250,7 @@ sub {
 }
 
 img {
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 svg:not(:root) {
@@ -4920,11 +4922,15 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav-tabs {
   border-bottom: 1px solid rgb(221, 221, 221);
+  position:relative;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
 }
 
 .nav-tabs>li {
-  float: left;
-  margin-bottom: -1px;
+  float: none;
+  display:inline-block;
 }
 
 .nav-tabs>li>a {
@@ -4932,6 +4938,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   line-height: 1.42857;
   border: 1px solid transparent;
   border-radius: 4px 4px 0px 0px;
+  padding: 10px 20px;
 }
 
 .nav-tabs>li>a:hover {
@@ -11162,7 +11169,8 @@ body {
 }
 
 .section-social .nav-tabs li {
-  width: 33.333%;
+  position:center;
+  
 }
 
 .section-social .nav-tabs li a {
@@ -11461,7 +11469,7 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    flex-direction: column;
+    flex-direction: column-reverse;
     min-width: 10rem;
     min-height: 10rem;
     margin-top: 1.1rem;
