@@ -1,5 +1,5 @@
 
-<h1 align="center">Technical Documentation Page 🤓 </h1>
+<h1 align="center">Product Landing Page 🤓 </h1>
 
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
@@ -23,7 +23,7 @@ For this project, I have built a technical documentation page to serve as instru
 
 ##  See project online 
 
-[Link to project](https://codepen.io/Robeloper/full/dyrZBzm)✨
+[Link to project](https://codepen.io/Robeloper/full/qBvYrxV)✨
 
 
 ## Technology Used
@@ -33,7 +33,7 @@ For this project, I have built a technical documentation page to serve as instru
 
 
 
-<a href="https://codepen.io/Robeloper/full/dyrZBzm">
+<a href="https://codepen.io/Robeloper/full/qBvYrxV>
   <img src="photo.png"width="auto">
 </a>
 
