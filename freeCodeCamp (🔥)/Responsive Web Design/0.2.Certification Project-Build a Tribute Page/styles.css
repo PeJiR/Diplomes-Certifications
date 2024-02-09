@@ -1,4 +1,423 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+.section-quote {
+    height: 100vh;
+    margin: 0 0 10rem;
+    background-image: url(https://media.admagazine.fr/photos/63616d30ff8ef6683ffe5d4a/master/w_1600,c_limit/Picasso%20Josie.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: -70rem -3rem;
+}
+
+.section-social {
+    position: relative;
+    width: 100%;
+    min-height: 10rem;
+    margin-bottom: 2rem;
+    background-color: #e9ebee;
+    &__promo {
+        position: absolute;
+        z-index: 100;
+        display: flex;
+        width: 100%;
+        height: 100%;
+
+        background-color: rgba(87, 128, 132, 0.8);
+        align-items: center;
+        justify-content: center;
+        &-ring {
+            display: none;
+            position: absolute;
+            opacity: 0.3;
+            width: 70%;
+
+
+        }
+        &-btn {
+            @extend .story-section__btn;
+            @include rob-r;
+            position: relative;
+            width: 20rem;
+            height: 5rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+            background-color: #c9c9c9;
+            box-shadow: 2px 0 172px 62px rgba(30, 62, 66, 1);
+            &:after {
+                position: absolute;
+                top: -2rem;
+                left: 20%;
+                font-size: 1.2rem;
+                content: "Follow Robert in";
+                color: #c9c9c9;
+            }
+        }
+    }
+    &__promo-btn--hidden {
+        display: none;
+    }
+    .fb-post {
+        background-color: white;
+        &__wrapper-small {
+            display: none;
+        }
+    }
+    .fb-follow {
+        display: block;
+        width: 100%;
+    }
+    .fb-follow__wrapper-small {
+        margin-left: -0.3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: rgba(64, 128, 255, 0.3);
+    }
+    .fb-follow__wrapper-large {
+        display: none;
+        padding: 1rem;
+        background-color: rgba(64, 128, 255, 0.3);
+    }
+    .nav-tabs {
+        margin-bottom: 1.5rem;
+        li {
+            width: 33.333%;
+            a {
+                width: 100%;
+                font-size: 2.5rem;
+                text-align: center;
+                text-transform: uppercase;
+                border-bottom: 2px solid #1da1f2;
+                &:hover {
+                    border-top: 2px solid #ad7b82;
+                    background-color: rgba(29, 161, 242, 0.4);
+                }
+            }
+        }
+        .icon-facebook {
+            color: #4080ff;
+            border-top: 2px solid #b6cbf3;
+            background-color: #b6cbf3;
+        }
+        .icon-twitter {
+            color: #1da1f2;
+            border-top: 2px solid rgba(173, 216, 230, 0.9);
+            background-color: rgba(173, 216, 230, 0.9);
+        }
+        .icon-instagram {
+            color: #305777;
+            border-top: 2px solid #99c3d2;
+            background-color: rgba(74, 156, 181, 0.5);
+        }
+    }
+    .nav-tabs .active a {
+        color: rgb(85, 85, 85);
+        border: 2px solid #1da1f2;
+        border-top: 2px solid #1da1f2;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            border: 2px solid #1da1f2;
+            border-bottom: none;
+            border-bottom: 2px solid transparent;
+            // border-top: 2px solid #E9EBEE;
+            background: transparent;
+        }
+        &:active {
+            border: 2px solid #1da1f2;
+            border-bottom: none;
+            border-bottom: 2px solid transparent;
+            background: transparent;
+            // border-top: 2px solid #E9EBEE;
+        }
+        &:focus {
+            border: 2px solid #1da1f2;
+            border-bottom: none;
+            border-bottom: 2px solid transparent;
+            background: transparent;
+            // border-top: 2px solid #E9EBEE;
+        }
+        &:link {
+            border: 2px solid #1da1f2;
+            border-bottom: 2px solid transparent;
+            background: transparent;
+            // border-top: 2px solid #E9EBEE;
+        }
+    }
+    &__facebook {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding-left: 1.1rem;
+        justify-content: center;
+        &-profile {
+            display: flex;
+            flex-direction: column;
+            min-width: 10rem;
+            min-height: 10rem;
+            margin-top: 1.1rem;
+            margin-right: 5rem;
+            background-color: #e9ebee;
+            flex-grow: 0;
+            .avatar {
+                display: block;
+                width: 202px;
+                height: 200px;
+                margin-bottom: 2rem;
+                margin-left: 1.1rem;
+                outline: 10px solid white;
+            }
+            .name {
+                font-size: 24px;
+                line-height: 26px;
+                color: #1d2129;
+            }
+            .taq {
+                display: block;
+                margin-top: 4px;
+                margin-bottom: 1rem;
+                font-size: 14px;
+                line-height: 16px;
+                word-wrap: break-word;
+                color: #90949c;
+            }
+        }
+        ._3f-h._3f-i {
+            font-weight: bold;
+            color: #1d2129;
+            border-color: #4267b2;
+        }
+        ._3f-h:hover,
+        ._3f-h._3f-i,
+        ._1v0n:hover {
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.05);
+        }
+        ._3f-h {
+            display: block;
+            padding: 7px 8px;
+            color: #4b4f56;
+            border-left: 3px solid transparent;
+        }
+        ._3f-j {
+            vertical-align: middle;
+        }
+        ._50f4 {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        #facebook ._-kb a {
+            font-family: inherit;
+        }
+        ._3f-h._3f-i {
+            font-weight: bold;
+            color: #1d2129;
+            border-color: #4267b2;
+        }
+        ._5aj7 {
+            display: flex;
+        }
+        #facebook ._-kb span {
+            font-family: inherit;
+        }
+        ._50f4 {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        #facebook ._-kb a {
+            font-family: inherit;
+        }
+        ._3f-h._3f-i {
+            font-weight: bold;
+            color: #1d2129;
+            border-color: #4267b2;
+        }
+        ._5aj7 ._4bl9 {
+            flex: 1 0 0;
+        }
+        ._4bl9 {
+            overflow: hidden;
+        }
+        ._4bl7,
+        ._4bl9 {
+            word-wrap: break-word;
+        }
+        ._5aj7 ._4bl7 {
+            float: none;
+        }
+        ._3mpx {
+            height: 18px;
+        }
+        ._4bl7,
+        ._4bl9 {
+            word-wrap: break-word;
+        }
+    }
+    .twitter__wrapper {
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+    .twitter__follow {
+        display: flex;
+        width: 100%;
+        height: 5rem;
+        background-color: rgba(64, 128, 255, 0.3);
+        align-items: center;
+        justify-content: center;
+        a {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .instagram__follow {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        &-btn {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 5rem;
+            background-color: rgba(64, 128, 255, 0.3);
+            align-items: center;
+            justify-content: center;
+            .follow_toolbox {
+                font-size: 3rem;
+                text-decoration: none;
+                p {
+                    @include rob-r;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-top: 1rem;
+                    font-size: 1.5rem;
+                    color: #555555;
+                }
+            }
+        }
+    }
+}
+
+/*----------  Gallery  ----------*/
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px 20px;
+     
+  }
+  
+  .gallery img {
+    margin-top:20px;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+
+/*----------  Media  ----------*/
+
+@media #{$tablet} {
+    .section-social {
+        &__promo {
+            &-ring {
+                width: 60%;
+                display: block;
+
+            }
+        }
+        .fb-follow__wrapper-large {
+            display: block;
+        }
+        .fb-follow__wrapper-small {
+            display: none;
+            padding: 1rem;
+        }
+        .fb-post {
+            background-color: white;
+            &__wrapper-small {
+                display: block;
+            }
+        }
+        &__facebook {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            padding-left: 1.1rem;
+            justify-content: space-between;
+            &-profile {
+                display: flex;
+                flex-direction: column;
+                min-width: 20rem;
+                min-height: 10rem;
+                margin-top: 1.1rem;
+                margin-right: 5rem;
+                background-color: #e9ebee;
+                flex-grow: 1;
+                .avatar {
+                    display: block;
+                    width: 202px;
+                    height: 200px;
+                    margin-bottom: 2rem;
+                    margin-left: 1.1rem;
+                    outline: 10px solid white;
+                }
+            }
+        }
+    }
+}
+
+@media #{$desktop-f} {
+    .section-social {
+        &__promo {
+            &-ring {
+                width: 50%;
+            }
+        }
+        &__facebook {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            padding-left: 1.1rem;
+            justify-content: flex-start;
+            &-profile {
+                display: flex;
+                flex-direction: column;
+                min-width: 10rem;
+                min-height: 10rem;
+                margin-top: 1.1rem;
+                margin-right: 25rem;
+                background-color: #e9ebee;
+                flex-grow: 0;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 992px) .section-quote {
+    background-image: url(https://media.admagazine.fr/photos/63616d3…/master/w_1600,c_limit/Picasso%20Josie.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: -70rem -3rem;
+    height: 100vh;
+}
+
 .label,
 sub,
 sup {
