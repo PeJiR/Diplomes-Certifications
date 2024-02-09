@@ -19,7 +19,7 @@
 --->
 ## Project description: 
 
-For this project, I have built a tribute page for Son Goku from Dragon ball anime.
+For this project, I have built a tribute page for a famous character.
 
 ##  See project online 
 
@@ -34,7 +34,7 @@ For this project, I have built a tribute page for Son Goku from Dragon ball anim
 
 
 <a href="https://codepen.io/Robeloper/full/JjzrrXX">
-  <img src="header.png" width="auto">
+  <img src="photo.png" width="auto">
 </a>
 
 
