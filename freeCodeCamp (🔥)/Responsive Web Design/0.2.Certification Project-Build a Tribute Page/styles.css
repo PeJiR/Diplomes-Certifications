@@ -488,7 +488,7 @@ pre {
 blockquote .small::before,
 blockquote footer::before,
 blockquote small::before {
-    content: "— ";
+    content: "— ";
 }
 
 .blockquote-reverse,
@@ -526,7 +526,7 @@ blockquote.pull-right small::before {
 blockquote.pull-right .small::after,
 blockquote.pull-right footer::after,
 blockquote.pull-right small::after {
-    content: " —";
+    content: " —";
 }
 
 code,
@@ -4195,7 +4195,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .breadcrumb>li+li::before {
     padding: 0px 5px;
     color: rgb(204, 204, 204);
-    content: "/ ";
+    content: "/ ";
 }
 
 .breadcrumb>.active {
