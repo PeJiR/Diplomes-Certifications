@@ -520,40 +520,12 @@ blockquote.pull-right small::before {
     content: "";
 }
 
-.blockquote-reverse .small::after,
-.blockquote-reverse footer::after,
-.blockquote-reverse small::after,
-blockquote.pull-right .small::after,
-blockquote.pull-right footer::after,
-blockquote.pull-right small::after {
-    content: " —";
-}
 
-code,
-kbd,
-pre,
-samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-}
 
-code {
-    color: rgb(199, 37, 78);
-    background-color: rgb(249, 242, 244);
-    border-radius: 4px;
-}
 
-kbd {
-    color: rgb(255, 255, 255);
-    background-color: rgb(51, 51, 51);
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px -1px 0px inset;
-}
 
-kbd kbd {
-    padding: 0px;
-    font-size: 100%;
-    box-shadow: none;
-}
+
+
 
 pre {
     padding: 9.5px;
@@ -572,13 +544,6 @@ pre {
     margin-left: auto;
 }
 
-pre code {
-    padding: 0px;
-    font-size: inherit;
-    color: inherit;
-    white-space: pre-wrap;
-    border-radius: 0px;
-}
 
 .container,
 .container-fluid {
@@ -586,9 +551,6 @@ pre code {
     padding-left: 15px;
 }
 
-.pre-scrollable {
-    overflow-y: scroll;
-}
 
 @media (min-width: 992px) {
     .container {
@@ -605,6 +567,12 @@ pre code {
 .row {
     margin-right: -15px;
     margin-left: -15px;
+}
+.row:hover {
+  background-color: none;
+  transition: none;
+   
+   
 }
 
 .col-lg-1,
@@ -665,15 +633,7 @@ pre code {
     width: 100%;
    
 }
-.col-xs-12 :hover {
-  background-color: black;
-  transition: background-color 0.8s;
-  opacity:95%;
-  
 
-  color: var(--logo-color3);
-   
-}
 
 .col-xs-11 {
     width: 91.6667%;
@@ -3264,12 +3224,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-radius: 0px;
 }
 
-.input-group-addon,
-.input-group-btn {
-    width: 1%;
-    white-space: nowrap;
-    vertical-align: middle;
-}
 
 .input-group-addon {
     padding: 6px 12px;
@@ -5388,116 +5342,6 @@ button.list-group-item-danger .list-group-item-heading {
 
 
 
-
-
-
-
-.popover {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1060;
-    display: none;
-    max-width: 276px;
-    padding: 1px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: start;
-    background-color: rgb(255, 255, 255);
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
-}
-
-.carousel-caption,
-.carousel-control {
-    color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
-    text-align: center;
-}
-
-.section-quote__text,
-.section-social__facebook ._4bl7,
-.section-social__facebook ._4bl9 {
-    overflow-wrap: break-word;
-}
-
-.popover.top {
-    margin-top: -10px;
-}
-
-.popover.right {
-    margin-left: 10px;
-}
-
-.popover.bottom {
-    margin-top: 10px;
-}
-
-.popover.left {
-    margin-left: -10px;
-}
-
-.popover-title {
-    padding: 8px 14px;
-    margin: 0px;
-    font-size: 14px;
-    background-color: rgb(247, 247, 247);
-    border-bottom: 1px solid rgb(235, 235, 235);
-    border-radius: 5px 5px 0px 0px;
-}
-
-.popover-content {
-    padding: 9px 14px;
-}
-
-.popover>.arrow,
-.popover>.arrow::after {
-    position: absolute;
-    display: block;
-    width: 0px;
-    height: 0px;
-    border-color: transparent;
-    border-style: solid;
-}
-
-.carousel,
-.carousel-inner {
-    position: relative;
-}
-
-.popover>.arrow {
-    border-width: 11px;
-}
-
-.popover>.arrow::after {
-    content: "";
-    border-width: 10px;
-}
-
-.popover.top>.arrow {
-    bottom: -11px;
-    left: 50%;
-    margin-left: -11px;
-    border-top-color: rgba(0, 0, 0, 0.25);
-    border-bottom-width: 0px;
-}
-
-.popover.top>.arrow::after {
-    bottom: 1px;
-    margin-left: -10px;
-    content: " ";
-    border-top-color: rgb(255, 255, 255);
-    border-bottom-width: 0px;
-}
-
-.popover.left>.arrow::after,
-.popover.right>.arrow::after {
-    bottom: -10px;
-    content: " ";
-}
-
 .popover.right>.arrow {
     top: 50%;
     left: -11px;
@@ -5647,13 +5491,7 @@ button.list-group-item-danger .list-group-item-heading {
     background-repeat: repeat-x;
 }
 
-.carousel-control:focus,
-.carousel-control:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    outline: 0px;
-    opacity: 0.9;
-}
+
 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .glyphicon-chevron-right,
@@ -6494,10 +6332,6 @@ button.list-group-item-danger .list-group-item-heading {
     border-left-color: rgba(0, 0, 0, 0.5);
 }
 
-.fotorama__caption a:hover {
-    color: rgb(51, 51, 51);
-    border-color: rgba(51, 51, 51, 0.5);
-}
 
 .fotorama__wrap--rtl .fotorama__caption {
     left: auto;
@@ -6702,48 +6536,8 @@ button.list-group-item-danger .list-group-item-heading {
     border-color: rgba(0, 0, 0, 0.2);
 }
 
-.btn-adn.active,
-.btn-adn.focus,
-.btn-adn:active,
-.btn-adn:focus,
-.btn-adn:hover,
-.open>.dropdown-toggle.btn-adn {
-    color: rgb(255, 255, 255);
-    background-color: rgb(206, 86, 63);
-    border-color: rgba(0, 0, 0, 0.2);
-}
 
-.btn-adn.active.focus,
-.btn-adn.active:focus,
-.btn-adn.active:hover,
-.btn-adn:active.focus,
-.btn-adn:active:focus,
-.btn-adn:active:hover,
-.open>.dropdown-toggle.btn-adn.focus,
-.open>.dropdown-toggle.btn-adn:focus,
-.open>.dropdown-toggle.btn-adn:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(185, 70, 48);
-    border-color: rgba(0, 0, 0, 0.2);
-}
 
-.btn-adn.disabled.focus,
-.btn-adn.disabled:focus,
-.btn-adn.disabled:hover,
-.btn-adn[disabled].focus,
-.btn-adn[disabled]:focus,
-.btn-adn[disabled]:hover,
-fieldset[disabled] .btn-adn.focus,
-fieldset[disabled] .btn-adn:focus,
-fieldset[disabled] .btn-adn:hover {
-    background-color: rgb(216, 122, 104);
-    border-color: rgba(0, 0, 0, 0.2);
-}
-
-.btn-adn .badge {
-    color: rgb(216, 122, 104);
-    background-color: rgb(255, 255, 255);
-}
 
 .btn-bitbucket {
     color: rgb(255, 255, 255);
@@ -6751,43 +6545,9 @@ fieldset[disabled] .btn-adn:hover {
     border-color: rgba(0, 0, 0, 0.2);
 }
 
-.btn-bitbucket.active,
-.btn-bitbucket.focus,
-.btn-bitbucket:active,
-.btn-bitbucket:focus,
-.btn-bitbucket:hover,
-.open>.dropdown-toggle.btn-bitbucket {
-    color: rgb(255, 255, 255);
-    background-color: rgb(22, 55, 88);
-    border-color: rgba(0, 0, 0, 0.2);
-}
 
-.btn-bitbucket.active.focus,
-.btn-bitbucket.active:focus,
-.btn-bitbucket.active:hover,
-.btn-bitbucket:active.focus,
-.btn-bitbucket:active:focus,
-.btn-bitbucket:active:hover,
-.open>.dropdown-toggle.btn-bitbucket.focus,
-.open>.dropdown-toggle.btn-bitbucket:focus,
-.open>.dropdown-toggle.btn-bitbucket:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(15, 37, 60);
-    border-color: rgba(0, 0, 0, 0.2);
-}
 
-.btn-bitbucket.disabled.focus,
-.btn-bitbucket.disabled:focus,
-.btn-bitbucket.disabled:hover,
-.btn-bitbucket[disabled].focus,
-.btn-bitbucket[disabled]:focus,
-.btn-bitbucket[disabled]:hover,
-fieldset[disabled] .btn-bitbucket.focus,
-fieldset[disabled] .btn-bitbucket:focus,
-fieldset[disabled] .btn-bitbucket:hover {
-    background-color: rgb(32, 80, 129);
-    border-color: rgba(0, 0, 0, 0.2);
-}
+
 
 .btn-bitbucket .badge {
     color: rgb(32, 80, 129);
@@ -6800,48 +6560,8 @@ fieldset[disabled] .btn-bitbucket:hover {
     border-color: rgba(0, 0, 0, 0.2);
 }
 
-.btn-dropbox.active,
-.btn-dropbox.focus,
-.btn-dropbox:active,
-.btn-dropbox:focus,
-.btn-dropbox:hover,
-.open>.dropdown-toggle.btn-dropbox {
-    color: rgb(255, 255, 255);
-    background-color: rgb(13, 106, 173);
-    border-color: rgba(0, 0, 0, 0.2);
-}
+.
 
-.btn-dropbox.active.focus,
-.btn-dropbox.active:focus,
-.btn-dropbox.active:hover,
-.btn-dropbox:active.focus,
-.btn-dropbox:active:focus,
-.btn-dropbox:active:hover,
-.open>.dropdown-toggle.btn-dropbox.focus,
-.open>.dropdown-toggle.btn-dropbox:focus,
-.open>.dropdown-toggle.btn-dropbox:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(10, 86, 140);
-    border-color: rgba(0, 0, 0, 0.2);
-}
-
-.btn-dropbox.disabled.focus,
-.btn-dropbox.disabled:focus,
-.btn-dropbox.disabled:hover,
-.btn-dropbox[disabled].focus,
-.btn-dropbox[disabled]:focus,
-.btn-dropbox[disabled]:hover,
-fieldset[disabled] .btn-dropbox.focus,
-fieldset[disabled] .btn-dropbox:focus,
-fieldset[disabled] .btn-dropbox:hover {
-    background-color: rgb(16, 135, 221);
-    border-color: rgba(0, 0, 0, 0.2);
-}
-
-.btn-dropbox .badge {
-    color: rgb(16, 135, 221);
-    background-color: rgb(255, 255, 255);
-}
 
 .btn-facebook {
     color: rgb(255, 255, 255);
@@ -6849,16 +6569,7 @@ fieldset[disabled] .btn-dropbox:hover {
     border-color: rgba(0, 0, 0, 0.2);
 }
 
-.btn-facebook.active,
-.btn-facebook.focus,
-.btn-facebook:active,
-.btn-facebook:focus,
-.btn-facebook:hover,
-.open>.dropdown-toggle.btn-facebook {
-    color: rgb(255, 255, 255);
-    background-color: rgb(45, 67, 115);
-    border-color: rgba(0, 0, 0, 0.2);
-}
+
 
 .btn-facebook.active.focus,
 .btn-facebook.active:focus,
@@ -7747,7 +7458,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--logo-color5);
+  background-color: var(--logo-color6);
   transition: background-color 1s;
 
   
@@ -8004,27 +7715,9 @@ body {
     background-position: -70rem -3rem;
 }
 
-.section-quote__text {
-    font-family: Roboto-r, Arial, sans-serif;
-    width: 100%;
-    margin-top: 0px;
-    font-size: 2rem;
-    border-left: 2px solid rgba(163, 74, 82, 0.7);
-    border-radius: 5%;
-    background-color: rgb(202, 252, 254);
-    
-}
 
-.section-quote__text a {
-    color: rgb(25, 85, 102);
-}
 
-.section-quote__text a:hover {
-    color: rgb(163, 74, 82);
-    font-weight: 500;
-}
-
-@media screen and (min-width: 321px) and (max-width: 479px) and (orientation: portrait) {
+@media screen and (min-width: 450px) and (max-width: 479px) and (orientation: portrait) {
     .section-quote {
         height: 100vh;
         margin: 0px 0px 4rem;
@@ -8032,21 +7725,11 @@ body {
         background-image: url("../img/header-bg.jpg");
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-position: 50% 30%;
+        background-position: 20% 20%;
     }
 
-    .section-quote .fotorama {
-        margin-top: 40vh;
-        padding-top: 2rem;
-        background-color: rgba(202, 252, 254, 0.5);
-    }
-
-    .section-quote .fotorama__arr,
-    .section-quote .fotorama__fullscreen-icon,
-    .section-quote .fotorama__video-close,
-    .section-quote .fotorama__video-play {
-        background: url("../img/fotorama.png") no-repeat;
-    }
+   
+   
 
     .section-quote .fotorama__arr--next {
         right: 2px;
@@ -8251,7 +7934,13 @@ body {
         justify-content: space-evenly;
         flex-direction: row;
     }
-
+    .section-quote__large :hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.8s;
+  opacity:95%;
+  color: black;
+   
+}
     .section-quote__text {
         font-family: Roboto-r, Arial, sans-serif;
         display: flex;
@@ -8270,6 +7959,13 @@ body {
         justify-content: ;
         flex-direction: row;
     }
+.section-quote__text :hover {
+  background-color: transparent;
+  transition: background-color 0.8s;
+  opacity:95%;
+  color: black;
+   
+}
 
     .section-quote__text:nth-child(1) {
         width: 100%;
@@ -8322,7 +8018,7 @@ body {
         margin-top: 0px;
         font-size: 2rem;
         overflow-wrap: break-word;
-        border-left: 6px solid var(--logo-color5);
+        border-left: 6px solid var(--logo-color7);
         border-radius: 7%;
         background-color: var(--logo-color6);
         -webkit-box-align: end;
@@ -8345,10 +8041,12 @@ body {
     -webkit-box-pack: center;
     justify-content: center;
     border-radius:5%;
-     color:transparent;
+    color:transparent;
+    border-top: 6px solid var(--logo-color7);
+    border-bottom: 6px solid var(--logo-color7);
 }
 
-
+ 
 
 .story-section p {
     width: 90%;
@@ -8369,19 +8067,40 @@ body {
 .story-section__biography {
     background-color: rgba(255, 255, 255, 0.8);
 }
+.story-section__biography:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.8s;
+  opacity:95%;
+  color: black;
+}
 
 .story-section__filmography {
     background-color: rgba(155, 255, 255, 0.8);
 }
-
+.story-section__filmography:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.8s;
+  opacity:95%;
+  color: black;
+}
 .story-section__personal {
     background-color: rgba(255, 155, 255, 0.8);
 }
-
+.story-section__personal:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.8s;
+  opacity:95%;
+  color: black;
+}
 .story-section__music {
     background-color: rgba(255, 255, 255, 0.8);
 }
-
+.story-section__music:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: background-color 0.8s;
+  opacity:95%;
+  color: black;
+}
 .modal-content .modal-btn {
     font-size: 1.5rem;
     color: rgba(3, 3, 3, 0.7);
