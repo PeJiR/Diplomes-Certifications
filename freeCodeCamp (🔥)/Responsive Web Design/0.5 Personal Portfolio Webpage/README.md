@@ -16,7 +16,7 @@
     <img alt="Twitter: pejir" src="https://img.shields.io/twitter/follow/pejir.svg?style=social" />
   </a>
 </p>
---->
+---> 
 ## Project description: 
 
 In this project I have created my own personal portfolio page.
