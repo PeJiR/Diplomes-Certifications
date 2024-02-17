@@ -1,0 +1,172 @@
+|ideas of businnes:|
+	subscriptions 
+	brand new product: existing product with new packaging  or name 
+	current product but a small twist or spin
+
+|interests/hobbies|
+	IT
+	code
+	games
+	fitness
+	gadgets
+	toys
+	food
+	travelling
+	gay
+	
+|Social media friendly|
+
+	Toys
+	Household
+	Outdoor
+	Travel
+	Beauty
+	Gadgets
+	Jewelry
+	Watches
+	Fashion
+	Services (some)
+	Digital products (some)
+
+| Low cost start up |
+	Existing product with new packaging and new spin |
+	Online coaching/services 
+	Info products/DVD’s 
+	Membership site 
+	Apps/Software 
+
+| Simple |
+	‘One-size-fits-all’ product
+	Non-electronic
+	Doesn't ‘confuse’ the user
+	Easy to obtain (for you)
+	‘One-size-fits-all’ service
+	Membership site focused
+	on one specific subject
+
+|Complex|
+	Clothing or shoes
+	Anything that needs to ‘fit’
+	Electronics
+	Difficult to obtain/logistics problems
+	Services with multiple options
+
+| Quick|
+	Existing product with new
+	packaging and new spin
+	Online coaching/services
+	Info products/DVD's
+
+|Not so quick|
+	Apps/software
+	Offline business
+	Funding required
+	In depth website/content required
+
+
+| Take Pre-orders|
+	Pros
+	Get guaranteed orders before you even have the product/service ready
+	Gauge market demand
+
+	Cons
+	Most payment processors have rules
+	If you decide not to go ahead, you would need to process refunds
+
+
+|Take Pre-orders without payment|
+	Pros 
+	Get email addresses of people who want to buy your product when it's ready
+	Gauge market demand
+
+	Cons
+	Not all will actually buy (plan for 10%)
+
+|NAME|
+
+	Memorable
+	Easy to spell
+	Not Ambiguous
+	Domain name availability
+	Easy to pronounce
+
+
+|The Life Force 8|
+	(‘Cashvertising' by Drew Eric Whitman)
+	1. Survival, enjoyment of life, life extension.
+	2. Enjoyment of food and beverages.
+	3. Freedom from fear, pain, and danger.
+	4. Sexual companionship.
+	5. Comfortable living conditions.
+	6. To be superior, winning, keeping up with the Joneses.
+	7. Care and protection of loved ones.
+	8. Social approval.
+
+
+|Funding|
+	Kickstarter
+	Patreon 
+	Fundable
+	WeFunder
+	IndieGoGo 
+	CrowdCube
+	GoFundMe 
+	Seedrs
+	Crowdfunder
+
+|Sourcing products|
+
+	Aliexpress
+	No minimum order, very low cost shipping
+	Alibaba
+	Minimum order varies, shipping is not low cost
+	DHGate
+	Minimum order varies, shipping cost is reasonable
+	Zentrada
+	Small minimum order, shipping cost is reasonable
+	
+|Packaging/Labels/Design|
+	Aliexpress
+	Plain boxes, custom labels, tags, stickers, poly bags, everything!
+	
+	Packlane
+	Custom boxes with tiny minimum order
+	
+	Packhelp
+	Custom boxes with 30 piece minimum order
+	
+	Papermart
+	Plain and custom boxes. Higher MOQ's but cheaper
+	
+|Packaging/Labels/Design|
+	Preciouspackaging (UK)
+	Custom boxes and much more. Higher MOQ's
+	Fiverr
+	Logo design, packaging/box design
+	Canva
+	DIY design (free)
+	Gimp
+	Free alternative to Photoshop (plenty tutorials on YouTube)
+	
+|Website creation|
+	Website creation
+	WordPress (dot org)
+
+	Will need hosting @ $5 - $10 per month. Free email addresses
+	Upwork
+
+	Pay somebody to build your website
+	Shopify
+
+	Perfect for selling a product or products. $29 per month
+	Godaddy or Namecheap
+	
+|Money out, Money in!|
+	Bookkeeping the free way
+		MS Excel, Google Sheets, Kingsoft, Apache Open Office
+	Bookkeeping software
+		Quickbooks, Sage, Quicken, Xero
+	Taking payments - PayPal
+		PayPal business account
+	Taking payments - Stripe
+		Payment processor for online businesses, easy to get
