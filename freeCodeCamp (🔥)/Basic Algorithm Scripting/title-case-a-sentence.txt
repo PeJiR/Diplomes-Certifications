@@ -1,8 +1,8 @@
 function titleCase(str) {
   const newTitle = str.split(" ");
   const updatedTitle = [];
-  for (let st in newTitle) {
-    updatedTitle[st] = newTitle[st][0].toUpperCase() + newTitle[st].slice(1).toLowerCase();
+  for (let str in newTitle) {
+    updatedTitle[str] = newTitle[str][0].toUpperCase() + newTitle[str].slice(1).toLowerCase();
   }
   return updatedTitle.join(" ");
 }
