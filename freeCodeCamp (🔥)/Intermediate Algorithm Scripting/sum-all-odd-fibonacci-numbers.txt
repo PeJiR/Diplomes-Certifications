@@ -1,0 +1,12 @@
+function sumFibs(num) {
+  let prev = 0, curr = 1, sum = 0;
+
+  while (curr <= num) {
+    sum += curr % 2 !== 0 ? curr : 0;
+    [prev, curr] = [curr, prev + curr];
+  }
+
+  return sum;
+}
+
+sumFibs(4); // Output: 5 (1 + 1 + 3)

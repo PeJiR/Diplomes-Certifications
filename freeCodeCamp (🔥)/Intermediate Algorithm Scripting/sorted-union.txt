@@ -1,0 +1,18 @@
+function uniteUnique(...arr) {
+  let result = [];
+  
+  // Iterate over each array in the arguments
+  arr.forEach(subArr => {
+    // Iterate over each element in the current array
+    subArr.forEach(element => {
+      // Check if the element is not already in the result array
+      if (!result.includes(element)) {
+        result.push(element); // Add unique element to the result array
+      }
+    });
+  });
+  
+  return result;
+}
+
+console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1])); // Output: [1, 3, 2, 5, 4]
