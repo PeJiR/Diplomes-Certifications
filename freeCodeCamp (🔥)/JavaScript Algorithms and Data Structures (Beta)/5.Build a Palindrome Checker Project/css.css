@@ -1,0 +1,142 @@
+:root {
+    --logo-color1: #b8bab9;
+    --logo-color2: #7b8386;
+    --logo-color3: #f7a30c;
+    --logo-color4: #35d0d2;
+    --logo-color5: #902e12;
+    --logo-color6: #d8cec2;
+    --logo-color7: #9b8676;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, 
+  sans-serif;
+  background-color: var(--logo-color1);
+  color:var(--logo-color5);
+}
+
+.container {
+  width: 100%;
+  min-height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 0;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.title {
+  text-align: center;
+  padding: 40px 40px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.palindrome-div {
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom:40px;
+  margin: 10px 0;
+  background-color: var(--logo-color6);
+  box-shadow: 0 6px 6px var(--logo-color7);
+}
+
+label {
+  color: #0a0a23;
+  margin-bottom: 20px;
+}
+
+.palindrome-btn {
+  width: 90px;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  background-color:var(--logo-color3);
+  color:var(--logo-color4);
+  cursor: pointer;
+}
+.palindrome-btn:hover {
+    color: var(--logo-color5);
+    text-decoration: underline;
+     background-color:var(--logo-color4);
+     transition: background-color 0.8s;
+    
+}
+.palindrome-input {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: 1px;
+  border-bottom: 2px solid var(--logo-color3);
+}
+
+.palindrome-input:focus {
+  border-bottom: 3px solid var(--logo-color3);
+}
+
+.palindrome-input::placeholder {
+  text-align: center;
+}
+
+.user-input {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.results-div {
+  overflow-y: auto;
+  word-wrap: break-word;
+  min-height: 50px;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.palindrome-definition-div {
+  color:var(--logo-color6);
+  width: min(100vw, 450px);
+  font-size: 1.3rem;
+  min-height: 140px;
+  background-color:var(--logo-color2);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.palindrome-definition {
+  vertical-align: middle;
+  text-align: center;
+}
+
+
