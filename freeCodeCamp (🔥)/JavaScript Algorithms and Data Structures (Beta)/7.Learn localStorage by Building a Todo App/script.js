@@ -10,7 +10,7 @@ const titleInput = document.getElementById("title-input");
 const dateInput = document.getElementById("date-input");
 const descriptionInput = document.getElementById("description-input");
 
-const taskData = [];
+const taskData = JSON.parse(localStorage.getItem("data")) || [];
 let currentTask = {};
 
 const addOrUpdateTask = () => {
@@ -28,7 +28,8 @@ const addOrUpdateTask = () => {
   } else {
     taskData[dataArrIndex] = taskObj;
   }
-localStorage.setItem("data",JSON.stringify(taskData))
+
+  localStorage.setItem("data", JSON.stringify(taskData));
   updateTaskContainer()
   reset()
 };
@@ -59,6 +60,7 @@ const deleteTask = (buttonEl) => {
 
   buttonEl.parentElement.remove();
   taskData.splice(dataArrIndex, 1);
+  localStorage.setItem("data", JSON.stringify(taskData));
 }
 
 const editTask = (buttonEl) => {
@@ -83,6 +85,10 @@ const reset = () => {
   descriptionInput.value = "";
   taskForm.classList.toggle("hidden");
   currentTask = {};
+}
+if (taskData.length ){
+
+updateTaskContainer();
 }
 
 openTaskFormBtn.addEventListener("click", () =>
