@@ -54,5 +54,12 @@ type(r)
 type(x)
 
 
+#Question 3
 
+a = 20
+b = 5
+c = a / b
+type(c)
+    
 
+#2.5.1. Manipuler des scripts avec PyCharm
