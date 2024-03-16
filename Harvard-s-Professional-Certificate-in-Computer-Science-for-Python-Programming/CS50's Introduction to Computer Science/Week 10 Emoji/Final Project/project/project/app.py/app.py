@@ -33,10 +33,13 @@ def after_request(response):
 
 @app.route("/")
 @login_required
-def index():
-    """Show all teh emails received"""
-    return apology("TODO")
-
+def inbox():
+    """Show all the emails received"""
+    userId = session["user_id"]
+    usernameDB = db.execute("SELECT username FROM users WHERE id =?", userId)
+    username = usernameDB[0]["username"]
+    emails = db.execute("SELECT * FROM emails WHERE recipient = ?",username)
+    return render_template("index.html",emails =emails)
 
 @app.route("/compose", methods=["GET", "POST"])
 @login_required
@@ -59,7 +62,7 @@ def compose():
         if not sender or not recipient or not subject or not body:
             return apology("No empty fields")
 
-        db.execute("INSERT INTO emails(sender, recipient, subject,body)VALUES (?,?,?,?)",
+        db.execute("INSERT INTO emails(sender, recipient,subject,body)VALUES (?,?,?,?)",
                    sender, recipient, subject, body)
 
         return redirect("/sent")
@@ -68,8 +71,12 @@ def compose():
 @app.route("/sent")
 @login_required
 def sent():
-    """Show history of transactions"""
-    return apology("TODO")
+    """Show sent emails"""
+    userId = session["user_id"]
+    usernameDB = db.execute("SELECT username FROM users WHERE id =?", userId)
+    username = usernameDB[0]["username"]
+    emails = db.execute("SELECT * FROM emails WHERE sender = ?",username)
+    return render_template("index.html",emails =emails)
 
 
 @app.route("/login", methods=["GET", "POST"])
@@ -120,11 +127,16 @@ def logout():
     return redirect("/")
 
 
-@app.route("/email", methods=["GET", "POST"])
+@app.route("/email", methods=["POST"])
 @login_required
 def email():
     """ See email details"""
-    return apology("TODO")
+    if request.method == "POST":
+        emailId = request.form.get("emailId")
+        emailDetailDB =db.execute("SELECT * FROM emails WHERE id=?", emailId)
+        emailDetail = emailDetailDB[0]
+        return render_template("email.html", emailDetail=emailDetail)
+
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -161,5 +173,8 @@ def register():
 @app.route("/reply", methods=["GET", "POST"])
 @login_required
 def reply():
-    """Reply email on email detail view"""
-    return apology("TODO")
+    if request.method == "POST":
+        emailId = request.form.get("emailId")
+        emailDetailDB =db.execute("SELECT * FROM emails WHERE id=?", emailId)
+        emailDetail = emailDetailDB[0]
+        return render_template("reply.html", emailDetail=emailDetail)
