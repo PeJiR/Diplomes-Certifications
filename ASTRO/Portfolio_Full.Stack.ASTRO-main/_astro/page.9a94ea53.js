@@ -1,0 +1,1 @@
+import{i}from"./index.12019092.js";i();

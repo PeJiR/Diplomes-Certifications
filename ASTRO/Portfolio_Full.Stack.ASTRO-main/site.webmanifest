@@ -1,0 +1,19 @@
+{
+	"name": "Project IDX",
+	"short_name": "Project IDX",
+	"icons": [
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#10151d",
+	"background_color": "#10151d",
+	"start_url": "https://google.com"
+}

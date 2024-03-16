@@ -1,0 +1,1 @@
+import{s as o}from"./hoisted.aa22eaf1.js";import"./lite-yt-embed.905b7b75.js";import"./index.12019092.js";o?document.addEventListener("astro:page-load",e):e();function e(){document.querySelectorAll("[data-is-feed-link]").forEach(t=>{t?.addEventListener("click",()=>{localStorage.setItem("cameFromFeed","true")})})}
