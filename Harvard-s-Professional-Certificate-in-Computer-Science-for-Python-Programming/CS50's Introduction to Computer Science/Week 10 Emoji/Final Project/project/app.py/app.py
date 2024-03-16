@@ -34,20 +34,20 @@ def after_request(response):
 @app.route("/")
 @login_required
 def index():
-    """Show portfolio of stocks"""
+    """Show all teh emails received"""
     return apology("TODO")
 
 
-@app.route("/buy", methods=["GET", "POST"])
+@app.route("/compose", methods=["GET", "POST"])
 @login_required
-def buy():
-    """Buy shares of stock"""
+def compose():
+    """Write an email to someone"""
     return apology("TODO")
 
 
-@app.route("/history")
+@app.route("/sent")
 @login_required
-def history():
+def sent():
     """Show history of transactions"""
     return apology("TODO")
 
@@ -99,21 +99,40 @@ def logout():
     return redirect("/")
 
 
-@app.route("/quote", methods=["GET", "POST"])
+@app.route("/email", methods=["GET", "POST"])
 @login_required
-def quote():
-    """Get stock quote."""
+def email():
+    """ See email details"""
     return apology("TODO")
 
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
     """Register user"""
-    return apology("TODO")
+    if request.method == "GET":
+        return render_template("register.html")
+    else:
+        email =request.form.get("email")
+        password =request.form.get("password")
+        confirm =request.form.get("confirm")
+
+        if not email or not password or not confirm:
+            return apology (" Please fill in fields")
+
+        if password != confirm:
+            return apology ("Passwords Do Not Match")
+
+        hash = generate_password_hash(password)
+
+        try:
+            db.execute("INSERT INTO users (username,hash) VALUES (?,?)")
 
 
-@app.route("/sell", methods=["GET", "POST"])
+
+
+
+@app.route("/reply", methods=["GET", "POST"])
 @login_required
-def sell():
-    """Sell shares of stock"""
+def reply():
+    """Reply email on email detail view"""
     return apology("TODO")
