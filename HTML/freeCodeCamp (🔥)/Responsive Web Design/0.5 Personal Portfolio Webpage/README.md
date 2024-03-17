@@ -19,7 +19,8 @@
 ---> 
 ## Project description: 
 
-In this project I have created my own personal portfolio page.
+Welcome to my personal portfolio website! 
+This project is a culmination of Free Code Camp Responsive Web Design Certificate, designed to showcase my abilities as a web developer. The goal of this website is to provide a visually appealing and user-friendly platform for potential employers, clients, or collaborators to learn more about me and my work.
 
 
 ##  See project online 
