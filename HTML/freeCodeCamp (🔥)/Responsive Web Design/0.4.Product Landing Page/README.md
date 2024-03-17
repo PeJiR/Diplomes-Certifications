@@ -33,7 +33,7 @@ For this project, I have built a technical documentation page to serve as instru
 
 
 <a href="https://codepen.io/Robeloper/full/qBvYrxV">
-  <img src="photo.jpg" width="auto">
+  <img src="photo.png" width="auto">
 </a>
 
 
