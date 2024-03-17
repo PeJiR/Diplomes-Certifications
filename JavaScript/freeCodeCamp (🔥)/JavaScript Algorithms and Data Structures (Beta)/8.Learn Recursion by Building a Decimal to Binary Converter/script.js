@@ -1,89 +1,144 @@
-const numberInput = document.getElementById("number-input");
-const convertBtn = document.getElementById("convert-btn");
-const result = document.getElementById("result");
-const animationContainer = document.getElementById("animation-container");
+const form = document.getElementById('form');
+const convertButton = document.getElementById('convert-btn');
+const output = document.getElementById('output');
+const result = document.getElementById('result');
+const animationContainer = document.getElementById('animation-container');
+
+// Define animation data
 const animationData = [
   {
-    inputVal: 5,
-    marginTop: 300,
-    addElDelay: 1000,
-    msg: 'decimalToBinary(5) returns "10" + 1 (5 % 2). Then it pops off the stack.',
-    showMsgDelay: 15000,
-    removeElDelay: 20000,
+    inputVal: 'number', // corrected the typo here
+    marginTop: -500,
+    addElDelay: 10,
+    msg: 'Roberto Perez',
+    showMsgDelay: 100,
+    removeElDelay: 1000,
   },
   {
-    inputVal: 2,
-    marginTop: -200,
-    addElDelay: 1500,
-    msg: 'decimalToBinary(2) returns "1" + 0 (2 % 2) and gives that value to the stack below. Then it pops off the stack.',
-    showMsgDelay: 10000,
-    removeElDelay: 15000,
+    inputVal: 'number', // corrected the typo here
+    marginBottom: 200,
+    addElDelay: 15,
+    msg: 'Front End  & Back End ',
+    showMsgDelay: 100,
+    removeElDelay: 1000,
   },
   {
-    inputVal: 1,
-    marginTop: -200,
-    addElDelay: 2000,
-    msg: 'decimalToBinary(1) returns "1" (base case) and gives that value to the stack below. Then it pops off the stack.',
-    showMsgDelay: 5000,
-    removeElDelay: 10000,
+    inputVal: 'number', // corrected the typo here
+    marginTop:200,
+    addElDelay: 30,
+    msg: 'Full Stack Development',
+    showMsgDelay: 100,
+    removeElDelay: 1000,
   }
 ];
 
-const decimalToBinary = (input) => {
-  if (input === 0 || input === 1) {
-    return String(input);
-  } else {
-    return decimalToBinary(Math.floor(input / 2)) + (input % 2);
-  }
-};
+// Function to convert a number to Roman numeral
+const convertToRoman = num => {
+  const ref = [
+    ['M', 1000],
+    ['CM', 900],
+    ['D', 500],
+    ['CD', 400],
+    ['C', 100],
+    ['XC', 90],
+    ['L', 50],
+    ['XL', 40],
+    ['X', 10],
+    ['IX', 9],
+    ['V', 5],
+    ['IV', 4],
+    ['I', 1]
+  ];
+  const res = [];
 
-const showAnimation = () => {
-  result.innerText = "Call Stack Animation";
-
-  animationData.forEach((obj) => {
-    setTimeout(() => {
-      animationContainer.innerHTML += `
-        <p id="${obj.inputVal}" style="margin-top: ${obj.marginTop}px;" class="animation-frame">
-          decimalToBinary(${obj.inputVal})
-        </p>
-      `;
-    }, obj.addElDelay);
-
-    setTimeout(() => {
-      document.getElementById(obj.inputVal).textContent = obj.msg;
-    }, obj.showMsgDelay);
-
-    setTimeout(() => {
-      document.getElementById(obj.inputVal).remove();
-    }, obj.removeElDelay);
+  ref.forEach(function (arr) {
+    while (num >= arr[1]) {
+      res.push(arr[0]);
+      num -= arr[1];
+    }
   });
 
-  setTimeout(() => {
-result.textContent = decimalToBinary(5);
-  }, 20000);
+  return res.join('');
 };
 
-const checkUserInput = () => {
-  const inputInt = parseInt(numberInput.value);
 
-  if (!numberInput.value || isNaN(inputInt)) {
-    alert("Please provide a decimal number");
-    return;
+// Function to validate input
+const isValid = (str, int) => {
+  let errText = '';
+
+  if (!str || str.match(/[e.]/g)) {
+    errText = 'Please enter a valid number.';
+  } else if (int < 1) {
+    errText = 'Please enter a number greater than or equal to 1.';
+  } else if (int > 3999) {
+    errText = 'Please enter a number less than or equal to 3999.';
+  } else {
+    // No errors detected
+    return true;
   }
 
-  if (inputInt === 5) {
-    showAnimation();
-    return;
-  }
+  // Handle error text and output styling
+  output.innerText = errText;
+  output.classList.add('alert');
 
-  result.textContent = decimalToBinary(inputInt);
-  numberInput.value = "";
+  return false;
 };
 
-convertBtn.addEventListener("click", checkUserInput);
 
-numberInput.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    checkUserInput();
-  }
+// Function to clear output
+const clearOutput = () => {
+  output.innerText = '';
+  output.classList.remove('alert');
+};
+
+
+// Event listener for form submission
+form.addEventListener('submit', (e) => {
+  e.preventDefault();  
+  updateUI();
 });
+
+// Event listener for convert button click
+convertButton.addEventListener('click', () => {   
+  updateUI();
+  showAnimation();
+});
+
+// Function to update the UI
+const updateUI = () => {
+  const numStr = document.getElementById('number').value;
+  const int = parseInt(numStr, 10);
+  output.classList.remove('hidden');
+  clearOutput();
+  if (isValid(numStr, int)) {
+    output.innerText = convertToRoman(int);
+  }
+};
+
+//Animation
+
+// Function to show animation
+const showAnimation = () => {
+  animationData.forEach((obj, index) => {
+    setTimeout(() => {
+      // Create a new element
+      const newElement = document.createElement('div');
+      newElement.classList.add('animation-frame');
+      newElement.style.marginTop = `${obj.marginTop}px`;
+
+      // Set the content of the element
+      newElement.textContent = obj.msg;
+
+      // Append the element to the animation container
+      animationContainer.appendChild(newElement);
+
+      // After a delay, remove the element
+      setTimeout(() => {
+        newElement.remove();
+      }, obj.removeElDelay - obj.showMsgDelay);
+    }, obj.addElDelay + (index * 10000)); // Adjust the delay based on index
+  });
+};
+
+// Call the function to start the animation
+showAnimation();
