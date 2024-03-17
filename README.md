@@ -21,7 +21,7 @@ I learned a variety of technical skills, including:
 - Deep learning algorithms: neural networks, convolutional neural networks, recurrent neural networks
 - Data wrangling and cleaning techniques
 - Data visualization techniques
-- Web 
+- Web development : Front End, back End, Database, Dev OPS,Mobile APP
 
 I also learned soft skills that are essential for data scientists, such as:
 
