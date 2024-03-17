@@ -4,22 +4,24 @@
 
 ## Intro 
 
-This repository contains a collection of all the professional certificates that I have earned so far. I am passionate about continuous learning and development. I believe that professional certificates are a great way to stay up-to-date on the latest trends and technologies in my field, and to demonstrate my skills and knowledge to potential employers and clients.  
+This repository contains a collection of all the professional certificates that I have earned so far. I am passionate about continuous learning and development. 
+I believe that professional certificates are a great way to stay up-to-date on the latest trends and technologies in my field, and to demonstrate my skills and knowledge to potential employers and clients.  
 
 </td></tr></table>
 
 ---
 
-## What skills and knowledge did I gain from earning these data science certificates?
+## What skills and knowledge did I gain from earning these certificates?
 
 I learned a variety of technical skills, including:
 
-- Programming languages: Python, R, SQL
+- Programming languages: JavaScript,Python,R,SQL
 - Software tools: Jupyter Notebook, PyCharm, RStudio, Tableau, Hadoop, Spark
 - Machine learning algorithms: linear regression, logistic regression, decision trees, random forests, support vector machines
 - Deep learning algorithms: neural networks, convolutional neural networks, recurrent neural networks
 - Data wrangling and cleaning techniques
 - Data visualization techniques
+- Web 
 
 I also learned soft skills that are essential for data scientists, such as:
 
