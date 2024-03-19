@@ -23,16 +23,6 @@ I learned a variety of technical skills, including:
 - Data visualization techniques
 - Web development : Front End, back End, Database, Dev OPS,Mobile APP
 
-I also learned soft skills that are essential for data scientists, such as:
-
-- Communication skills: I learned how to communicate my findings to both technical and non-technical audiences.
-- Teamwork skills: I learned how to collaborate with other data scientists and engineers to solve complex problems.
-- Problem-solving skills: I learned how to think critically and creatively to solve data science challenges.
-
-## Conclusion
-
-I am committed to my professional development, and I am always looking for new ways to learn and grow. I hope that this repository will inspire others to do the same.
-
 ## List of Cerfificates:
 - [**FreeCodeCamp** / Full Stack Web Development Certification, Computer Software Engineering](https://www.freecodecamp.org/Pejir)
 - [**Google Analytics Certification**](https://github.com/PeJiR/Diplomes-Certifications/blob/main/Google/Google%20Analytics%20Certification%20_%20Google.pdf)
