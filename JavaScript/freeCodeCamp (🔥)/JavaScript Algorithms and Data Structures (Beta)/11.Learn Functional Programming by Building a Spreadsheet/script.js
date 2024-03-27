@@ -41,7 +41,7 @@ window.onload = () => {
       container.appendChild(input);
     })
   })
-}
+}  
 
 const update = event => {
   const element = event.target;
