@@ -37,7 +37,7 @@ window.onload = () => {
       input.type = "text";
       input.id = letter + number;
       input.ariaLabel = letter + number;
-
+      input.onchange = update;
       container.appendChild(input);
     })
   })
