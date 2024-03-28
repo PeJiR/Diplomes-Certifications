@@ -1,4 +1,4 @@
-# [Harvard University: CS50's Introduction to Programming with Python](https://pll.harvard.edu/course/cs50s-introduction-programming-python) 
+# [Responsive Web Design](https://pll.harvard.edu/course/cs50s-introduction-programming-python) 
  
 
 **Course description**
