@@ -22,7 +22,19 @@ const charRange = (start, end) => range(start.charCodeAt(0), end.charCodeAt(0)).
 
 const evalFormula = (x, cells) => {
   const idToText = id => cells.find(cell => cell.id === id).value;
-  const rangeRegex = /([A-J])([1-9][0-9]?)/;
+  const rangeRegex = /([A-J])([1-9][0-9]?):([A-J])([1-9][0-9]?)/gi;
+  const rangeFromString = (num1, num2) => range(parseInt(num1), parseInt(num2));
+  const elemValue = num => {
+    const inner = character => {
+      return idToText(character + num);
+    }
+    return inner;
+  }
+  const addCharacters = character1 => character2 => num =>charRange(character1,character2); {
+    
+    
+
+  }
 }
 
 window.onload = () => {
