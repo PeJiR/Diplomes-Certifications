@@ -28,7 +28,7 @@ I learned a variety of technical skills, including:
 - Web development : Front End, back End, Database, Dev OPS,Mobile APP
 
 ## List of Cerfificates:
-- [**FreeCodeCamp** / Full Stack Web Development Certification, Computer Software Engineering](https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main)
+- [**FreeCodeCamp**  Full Stack Web Development Certification, Computer Software Engineering](https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main)
   
   <a href ="https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main">
     <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720051200&amp;v=beta&amp;t=F-tTN1M2eWyeNoUGxWhQJrysRrQonck2PJJUxEpaf4c" loading="lazy" alt="freeCodeCamp" evi-   width="96" height="96" target="_blank">
