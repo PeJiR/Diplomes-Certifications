@@ -1,9 +1,0 @@
-function repeatStringNumTimes(str, num) {
-  let acumulatedStr = "";
-  for (let i=0; i< num; i++){
-    acumulatedStr += str;
-  }
-  return acumulatedStr;
-}
-
-repeatStringNumTimes("abc", 3);
