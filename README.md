@@ -32,13 +32,7 @@ I learned a variety of technical skills, including:
   <a href ="https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main">
     <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720051200&amp;v=beta&amp;t=F-tTN1M2eWyeNoUGxWhQJrysRrQonck2PJJUxEpaf4c" loading="lazy" alt="freeCodeCamp" evi-   width="96" height="96" target="_blank">
   </a>
-
-- [**Google Analytics Certification**](https://github.com/PeJiR/Google)
-  
-  <a href ="https://github.com/PeJiR/Google">
-  <img alt="" width="96" height="96" src="https://raw.githubusercontent.com/PeJiR/Google/main/ga-for-certification-lp-card.png?token=GHSAT0AAAAAACOEGBQUF7GCHFNOO72V2LQSZQHCUHA">
-  </a>
-   
+ 
   
 - [**Harvard Professional Certificate in Computer Science for Python Programming**](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
   
