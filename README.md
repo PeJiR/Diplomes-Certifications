@@ -36,7 +36,7 @@ I learned a variety of technical skills, including:
 - [**Google Analytics Certification**](https://github.com/PeJiR/Google)
   
   <a href ="https://github.com/PeJiR/Google">
-  <img alt="" width="96" height="96" src="https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/resource_course_pictures/targets/1044135/w550/ga-for-certification-lp-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=NpvCXMe98jYjhxYHSAHyC2HPSyw%3D&amp;Expires=1711730557">
+  <img alt="" width="96" height="96" src="https://raw.githubusercontent.com/PeJiR/Google/main/ga-for-certification-lp-card.png?token=GHSAT0AAAAAACOEGBQUKWDOUGRKMGPQ6YS6ZQHAITQ">
   </a>
    
   
