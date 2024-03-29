@@ -37,6 +37,10 @@ I learned a variety of technical skills, including:
   <img src="https://media.licdn.com/dms/image/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/0/1631309789389?e=1720051200&amp;v=beta&amp;t=bZH--2YGsjzmL1rsyx6O15g9k-41VyNXKV4HKGEYTaw" loading="lazy" alt="CS50 logo" id="ember490" class="evi-image lazy-image ember-view org-top-card-primary-content__logo" width="96" height="96">
   
 - [**IBM Professional Certificate in Data Science**](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
+- 
+   <img class="cr-badges-full-badge__img" src="https://images.credly.com/size/680x680/images/b47e9b58-7f54-4981-b156-5e7d354c8215/Professional_Certificate_-_Data_Science.png" alt="IBM Data Science Professional Certificate badge image. Validation. Advanced level. Issued by Coursera" width="96" height="96"">
+
+
 
 
 
