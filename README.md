@@ -1,7 +1,7 @@
 <a href="https://www.linkedin.com/in/pejir/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue" alt="LinkedIn" /></a>
 
 # Certificates
-  <img src="https://raw.githubusercontent.com/PeJiR/Portfolio_Full.Stack.ASTRO/main/images/certificate_7858484.png" loading="lazy" alt="certificate" width="96" height="96">
+ 
  
 <table border=1 cellpadding=10><tr><td>  
 
@@ -9,7 +9,7 @@
 
 This repository contains a collection of all the professional certificates that I have earned so far. I am passionate about continuous learning and development. 
 I believe that professional certificates are a great way to stay up-to-date on the latest trends and technologies in my field, and to demonstrate my skills and knowledge to potential employers and clients.  
-
+ <img src="https://raw.githubusercontent.com/PeJiR/Portfolio_Full.Stack.ASTRO/main/images/certificate_7858484.png" loading="lazy" alt="certificate" width="96" height="96">
 </td></tr></table>
 
 ---
