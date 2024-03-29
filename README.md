@@ -32,16 +32,22 @@ I learned a variety of technical skills, including:
 
 - [**Google Analytics Certification**](https://github.com/PeJiR/Diplomes-Certifications/blob/main/Google/Google%20Analytics%20Certification%20_%20Google.pdf)
   
-   <img alt="" width="96" height="96" srcset="https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w550/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=bJkYcN%2FL0YehQoqMYFcBuV%2FVLlw%3D&amp;Expires=1711730939 550w, https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w800/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=M8kiiYJe9rKmCHUBubh8pZHU2ro%3D&amp;Expires=1711730939 800w, https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w1100/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=fjGCObiV4%2BjOeu0gW9elHKcCokI%3D&amp;Expires=1711730939 1100w, https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w1600/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=EuRa6aZgCmyPQ3UCRt9zBCBUS1M%3D&amp;Expires=1711730939 1600w" src="https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w550/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=bJkYcN%2FL0YehQoqMYFcBuV%2FVLlw%3D&amp;Expires=1711730939">
+  <a href ="https://github.com/PeJiR/Diplomes-Certifications/blob/main/Google/Google%20Analytics%20Certification%20_%20Google.pdf">
+  <img alt="" width="96" height="96" srcset="https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w550/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=bJkYcN%2FL0YehQoqMYFcBuV%2FVLlw%3D&amp;Expires=1711730939 550w, https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w800/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=M8kiiYJe9rKmCHUBubh8pZHU2ro%3D&amp;Expires=1711730939 800w, https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w1100/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=fjGCObiV4%2BjOeu0gW9elHKcCokI%3D&amp;Expires=1711730939 1100w, https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w1600/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=EuRa6aZgCmyPQ3UCRt9zBCBUS1M%3D&amp;Expires=1711730939 1600w" src="https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/categories/pictures/6434/w550/google-analytics-topic-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=bJkYcN%2FL0YehQoqMYFcBuV%2FVLlw%3D&amp;Expires=1711730939">
+  </a>
+   
   
 - [**Harvard Professional Certificate in Computer Science for Python Programming**](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
   
+  <a href="https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git">
   <img src="https://media.licdn.com/dms/image/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/0/1631309789389?e=1720051200&amp;v=beta&amp;t=bZH--2YGsjzmL1rsyx6O15g9k-41VyNXKV4HKGEYTaw" loading="lazy" alt="CS50 logo" id="ember490" class="evi-image lazy-image ember-view org-top-card-primary-content__logo" width="96" height="96">
+  </a>
   
 - [**IBM Professional Certificate in Data Science**](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
-  
-   <img class="cr-badges-full-badge__img" src="https://images.credly.com/images/b47e9b58-7f54-4981-b156-5e7d354c8215/Professional_Certificate_-_Data_Science.png" width="96" height="96">
 
+   <a href="https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile">  
+   <img class="cr-badges-full-badge__img" src="https://images.credly.com/images/b47e9b58-7f54-4981-b156-5e7d354c8215/Professional_Certificate_-_Data_Science.png" width="96" height="96">
+   </a>
 
 
 
