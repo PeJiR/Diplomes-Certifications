@@ -32,9 +32,9 @@ I learned a variety of technical skills, including:
     <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720051200&amp;v=beta&amp;t=F-tTN1M2eWyeNoUGxWhQJrysRrQonck2PJJUxEpaf4c" loading="lazy" alt="freeCodeCamp" evi-   width="96" height="96">
   </a>
 
-- [**Google Analytics Certification**](https://github.com/PeJiR/Diplomes-Certifications/blob/main/Google/Google%20Analytics%20Certification%20_%20Google.pdf)
+- [**Google Analytics Certification**](https://github.com/PeJiR/Google)
   
-  <a href ="https://github.com/PeJiR/Diplomes-Certifications/blob/main/Google/Google%20Analytics%20Certification%20_%20Google.pdf">
+  <a href ="https://github.com/PeJiR/Google">
   <img alt="" width="96" height="96" src="https://storage.googleapis.com/exceedlms-external-uploads-production/uploads/resource_course_pictures/targets/1044135/w550/ga-for-certification-lp-card.png?GoogleAccessId=GOOG1EIO7LXRUFV35UXSWKJ3AWMYHZUVNMYIAMGSBIFYEF2AMYYAY4Y4Y5PKA&amp;Signature=NpvCXMe98jYjhxYHSAHyC2HPSyw%3D&amp;Expires=1711730557">
   </a>
    
