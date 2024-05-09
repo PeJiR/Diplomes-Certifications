@@ -80,7 +80,7 @@ function love.draw()
     -- draw welcome text toward the top of the screen
     love.graphics.printf('Hello Pong!', 0, 20, VIRTUAL_WIDTH, 'center')
 
-    --
+    
     -- paddles are simply rectangles we draw on the screen at certain points,
     -- as is the ball
     --
