@@ -33,14 +33,13 @@ I learned a variety of technical skills, including:
 - [**FreeCodeCamp**  Full Stack Web Development Certification, Computer Software Engineering](https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main)
   
   <a href ="https://www.freecodecamp.org/Pejir">
-    <img src="https://media.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_100_100/0/1630639684997/free_code_camp_logo?e=1720051200&amp;v=beta&amp;t=F-tTN1M2eWyeNoUGxWhQJrysRrQonck2PJJUxEpaf4c" loading="lazy" alt="freeCodeCamp" evi-   width="96" height="96" target="_blank">
-  </a>
+   </a>
  
   
 - [**Harvard**  Professional Certificatein Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
   
   <a href="https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git">
-  <img src="https://media.licdn.com/dms/image/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/0/1631309789389?e=1720051200&amp;v=beta&amp;t=bZH--2YGsjzmL1rsyx6O15g9k-41VyNXKV4HKGEYTaw" loading="lazy" alt="CS50 logo" id="ember490" class="evi-image lazy-image ember-view org-top-card-primary-content__logo" width="96" height="96">
+   
   </a>
   
 - [**IBM** Professional Certificate in Data Science](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
