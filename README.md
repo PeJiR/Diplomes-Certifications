@@ -30,21 +30,16 @@ I learned a variety of technical skills, including:
 - Web development : Front End, back End, Database, Dev OPS,Mobile APP
 
 ## List of Cerfificates:
-- [**FreeCodeCamp**  Full Stack Web Development Certification, Computer Software Engineering](https://github.com/PeJiR/freeCodeCamp-Full-Stack-Web-Development-Certification-Computer-Software-Engineering/tree/main)
+- [**FreeCodeCamp**  Full Stack Web Development Certification, Computer Software Engineering](https://www.freecodecamp.org/Pejir)
   
-  <a href ="https://www.freecodecamp.org/Pejir">
-   </a>
- 
-  
+    
 - [**Harvard**  Professional Certificatein Computer Science for Python Programming](https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git)
   
-  <a href="https://github.com/PeJiR/Harvard-s-Professional-Certificate-in-Computer-Science-for-Python-Programming.git">
    
-  </a>
   
 - [**IBM** Professional Certificate in Data Science](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
 
-   <a href="https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile">  
+   
    
 
 
