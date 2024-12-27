@@ -46,9 +46,7 @@ I learned a variety of technical skills, including:
 - [**IBM** Professional Certificate in Data Science](https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile)
 
    <a href="https://www.credly.com/badges/b6ff321b-f624-462b-ab0d-bdfe37d15813/linked_in_profile">  
-   <img class="cr-badges-full-badge__img" src="https://images.credly.com/images/b47e9b58-7f54-4981-b156-5e7d354c8215/Professional_Certificate_-_Data_Science.png" width="96" height="96">
-   </a>
-
+   
 
 
 
